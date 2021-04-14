@@ -1,0 +1,839 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Document */
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Title    : Global Style Sheet, INTC
+Author   : srinivas
+Verified : 
+URL      : wwww.itivizag.com
+
+Description : Global Styles
+
+Created  : 
+Modified : 1 May 2011
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+*/
+
+/*@import url('../css/base.css');*/
+
+/* Base styles of the site */
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+body
+{
+	margin:0px auto;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	width:1000px;
+	height:800px;
+}
+ul
+{
+	margin:0px;
+	padding:0 20px;
+}
+#bgBody
+{
+	width:1000px;
+	height:800px;
+	margin:0px auto;
+	padding:0px;
+	background:url(../images/bodyBg.jpg) repeat-y 0 0;
+}
+#header
+{
+	margin:0px auto;
+	padding:0px;
+	width:900px;
+	height:117px;
+	background:url(../images/header_Bg.jpg) no-repeat 0 0;
+}
+#header img
+{
+	margin: 10px 0 0 15px;
+	padding:0px;
+	border:none;
+	float:left;
+}
+#header h1
+{
+	color: #0063C6;
+	float: left;
+	font-size: 17px;
+	margin: 27px 0 0 10px;
+	padding: 0;
+}
+#topNav
+{
+	display:block;
+	float:right;
+	margin:6px 15px 0 0 ;
+}
+#topNav a
+{
+	text-decoration:none;
+	padding:5px;
+	color:#666;
+}
+#topNav a:hover
+{
+	text-decoration:underline;
+}
+#title
+{
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+#title h2
+{
+	width:370px;
+	height:42px;
+	color:#0063C6;
+    float:right;
+    font-size:17px;
+   	margin: 46px 13px 0;
+    padding:0px;
+	font-family:Trajan Pro;
+	text-align:center;
+}
+#title img
+{
+	
+    left:0px;
+	margin:10px;
+	margin-left:65px;
+    padding:0;
+    position: relative;
+    top:36px;
+    z-index: 5;
+}
+#leftNav_Bg
+{
+	margin-left:50px;
+	padding:0px;
+	width:233px;
+	height:196px;
+	float:left;
+	background:url(../images/left_Nav_Bg.jpg) repeat-y 0 0;
+}
+#leftNav
+{
+	width:100%;
+	float:left;
+	height:196px;
+	margin:6px 0 0 40px;
+}
+#leftNav ul
+{
+
+	width:165px;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+#leftNav ul li
+{
+	list-style-type:none;
+	background:url(../images/left_Nav_Btn.png) no-repeat 15px 8px;
+	padding:0px;
+	border-bottom:1px solid #58a9e9;
+	position:relative;
+}
+#leftNav ul li.sel
+{
+	background-color:#09F;
+	color:#333;
+}
+
+#leftNav ul li a
+{
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	padding-left:28px;
+	height:22px;
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	line-height:18px
+}
+#leftNav ul :hover, #leftNav ul :hover
+{
+	color:#333;
+}
+#leftNav ul ul
+{
+	left:100%;
+	top:0;
+	display:none;
+	position:absolute;
+	z-index:500;
+}
+#leftNav ul li:hover ul
+{
+	display:block;
+	left:100%;
+	top:0;
+	background:url(../images/sub_Nav_Bg.jpg) repeat-y 0 0;
+	padding:0;
+}
+#leftNav ul ul li
+{
+	width:100%;
+
+}
+#banner
+{
+	background: url("../images/bannerImage.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 233px;
+    margin-right: 50px;
+    margin-top:0px;
+    padding: 0;
+    position: relative;
+    width: 666px;
+    z-index: 2;
+}
+#bottomCurve
+{
+	margin-left: 50px;
+    margin-top: -25px;
+	padding:0px;
+	background:url(../images/bottomCurve.png) no-repeat;
+	width:900px;
+	height:41px;
+	float:left;
+}
+#contentLeft
+{
+	margin-left:65px;
+	padding:0px;
+	width:216px;
+	height:390px;
+	float:left;
+	border:1px solid #CCC;
+}
+.newsWizard
+{
+	margin:0px;
+	padding:0px;
+	width:216px;
+	height:195px;
+	float:left;
+}
+.newsWizard h1
+{
+	background:url(../images/mark.jpg) no-repeat 0 0;
+	width:191px;
+	height:21px;
+	color:#0052A4;
+	font-size:15px;
+	text-align:left;
+	padding-left:15px;
+	margin:13px 0 0 13px;
+	border-bottom:2px solid #e1ebf4;
+}
+.newsWizard p
+{
+	width:216px;
+	height:144px;
+	text-align:center;
+	border-bottom:5px solid #5f93c3;
+	margin-top:10px;
+	line-height:20px;
+	font-size:12px;
+	color:#666;
+	background:url(../images/50yearsLogo.png) no-repeat 50px 0px;
+}
+.newsWizard img
+{
+	margin: 9px 9px 0;
+	padding:0px;
+}
+.newsWizard h2
+{
+	margin-top:5px;
+	padding:0px;
+	text-align:center;
+	border-bottom:5px solid #5f93c3;
+	font-size:15px;
+	width:216px;
+	height:22px;
+}
+/* contentRight Begins here */
+#contentRight
+{
+	margin-left:15px;
+	padding:0px;
+	width:635px;
+	height:390px;
+	float:left;
+}
+.wraper
+{
+	margin:0px;
+	padding:0px;
+	width:635px;
+	height:390px;
+	float:left;
+	border:1px solid #CCCCCC;
+}
+.wraper .contactUs
+{
+	padding: 0px;
+	width: 400px;
+	height: auto;
+	border: 1px solid #999;
+	-moz-border-radius: 10px;
+	margin-bottom: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.wraper .contactUs p
+{
+	font-size:14px;
+	padding:5px 25px;
+	line-height:20px;
+}
+/*.wraper h1
+{
+	padding:0px;
+	width:100px;
+	height:20px;
+	padding:0px;
+	background:url(../images/mark.jpg) no-repeat 0 0;
+	font-size:15px;
+	text-align:center;
+	color:#0052A4;
+	border-bottom:2px solid #e1ebf4;
+	margin: 13px 0 0 16px;
+}*/
+.wraper h1
+{
+	width:80%;
+	height:20px;
+	padding:0px;
+	background:url(../images/mark.jpg) no-repeat 0 0;
+	font-size:15px;
+	color:#0052A4;
+	margin: 13px 0 0 16px;
+	padding:0 0 0 15px;
+	border-bottom:2px solid #e1ebf4;
+
+}
+.contentWizard
+{
+	margin-left:15px;
+	padding:0px;
+	width:638px;
+	height:390px;
+	float:left;
+	border-top:1px solid #C6E2FF;
+}
+.aboutusWizard
+{
+	margin:0px;
+	padding:0px;
+	width:638px;
+	height:130px;
+	font-size:12px;
+	float:left;
+}
+
+.aboutusWizard h1
+{
+	background:url(../images/mark.jpg) no-repeat 0 0;
+	width:191px;
+	height:21px;
+	color:#0052A4;
+	font-size:15px;
+	text-align:left;
+	border-bottom:2px solid #e1ebf4;
+	padding-left:15px;
+}
+.aboutusWizard p
+{
+	text-align:justify;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+	margin-top:3px;
+	color:#333;
+}
+.aboutusWizard span a
+{
+	text-decoration:none;
+	color: #0052A4;
+	font-weight:bold;
+	margin-top:2px;
+	float:right;
+	font-size:12px;
+}
+
+.apprenticeWizard span a
+{
+	text-decoration:none;
+	color: #0052A4;
+	font-weight:bold;
+	margin:35px 10px;
+	float:right;
+	font-size:12px;
+}
+.aboutusWizard span a:hover, .apprenticeWizard span a:hover
+{
+	text-decoration:underline;
+}
+.apprenticeWizard
+{
+	margin-top:10px;
+	padding:0px;
+	width:310px;
+	height:240px;
+	border:1px solid #CCC;
+	float:left;
+}
+.apprenticeWizard p
+{
+	text-align:justify;
+	line-height:18px;
+	margin:0 10px 0 10px;
+	color:#333333;
+}
+.apprenticeWizard img
+{
+	margin:5px 10px;
+	padding:0px;
+}
+
+.principal_One
+{
+	margin-top:10px;
+	padding:0px;
+	width:310px;
+	height:240px;
+	border:1px solid #CCC;
+	float:right;
+}
+.principal_One_Bg
+{
+	margin:0px;
+	padding:0px;
+	width:298px;
+	height:74px;
+	float:right;
+	background:#5087BB;
+}
+.principal_One_Bg p
+{
+   	color: #FFFFFF;
+    font-size: 12px;
+    height: 72px;
+    line-height: 16px;
+    margin-left: 120px;
+    margin-top: 5px;
+    padding: 0;
+    width: 265px;
+}
+.principal_One img
+{
+	margin: 2px 0 0 0px;
+    position: relative;
+}
+.principal_Two_Bg
+{
+	height:70px;
+    margin: 59px 0 0 10px;
+	padding:0px;
+	width:298px;
+	float:left;
+	background:#5087BB;
+}
+.principal_Two_Bg p
+{
+	margin: 5px 0 0 10px;
+	padding:0px;
+	color:#FFF;
+	line-height:15px;
+}
+.apprenticeWizard h1, .principal_One h1
+{
+	background:url(../images/mark.jpg) no-repeat 0 0;
+	 margin: 10px 0 4px 10px;
+	width:191px;
+	height:21px;
+	color:#0052A4;
+	font-size:15px;
+	text-align:left;
+	padding-left:15px;
+	border-bottom:2px solid #e1ebf4;
+}
+/* Trades Table Starts here */
+.tableHeader
+{
+    height: 25px;
+    margin: 12px auto 0;
+    padding: 0;
+    width:602px;
+	font-size:13px;
+	background-color:#0773C2;
+	color:#fff;
+}
+.tableHeader table tr td
+{
+	padding: 4px 12px;
+    text-align: center;
+}
+.tableHeadColor
+{
+	background-color:#0773C2;
+	color:#ffffff;
+	font-size:13px;
+}
+.trades
+{
+	border: 2px solid #294876;
+  	height: 326px;
+	margin:0px auto;
+    overflow: auto;
+    padding: 0;
+    width:598px;
+	margin-top:12px;
+}
+.mes
+{
+	border: 2px solid #294876;
+  	height: 326px;
+	margin:0px auto;
+    overflow: auto;
+    padding: 0;
+    width:598px;
+	margin-top:12px;
+}
+.mes table tr
+{
+	height:16px;
+	border-bottom:1px solid #CCC;
+}
+.mes table tr td
+{
+	text-align:left;
+	padding:4px 5px;
+}
+.trades .table, .mes
+{
+	width:595px;
+	height:auto;
+	margin:0px auto;
+	margin-top:10px;
+	padding:0px;
+	border:2px solid #294876;
+}
+
+.trades table, .mes table
+{ 	font-size:12px;
+	color:#666;
+}
+.trades table .row
+{
+	background-color:#DEF1E8;
+}
+.trades table tr, .mes table tr
+{
+	height:16px;
+	border-bottom:1px solid #CCC;
+}
+.trades table tr td, .divHitech tr td
+{
+/*	padding:4px 12px;
+*/	text-align:center;
+	padding:4px 10px;
+
+}
+.trades table tr td a:hover
+{
+	text-decoration:none;
+	color:#B6650C;
+}
+
+/*.trades ul
+{
+	margin-top:12px;
+	float:left;
+	width:500px;
+	height:38px;
+	margin:3px 0 0 115px;
+	padding:0px;
+}
+.trades ul li
+{
+	line-height:20px;
+}
+*/
+.trades .alignLeft
+{
+	text-align:left;
+}
+/* Trades Table Ends here */
+
+/* contentRight Ends here */
+
+/* contentRight About Trades Starts Here */
+.aboutTrades
+{
+	border: 2px solid #294876;
+    height: 326px;
+    padding: 0;
+    width:598px;
+	margin:12px 0 0 15px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+	float:left;
+}
+.aboutTrades img
+{
+	margin:0px;
+	padding:10px 10px;
+	width:200px;
+	height:150px;
+	margin-top:3px;
+}
+.aboutTrades h2, .aboutApprentice h2
+{
+	width:auto;
+	height:20px;
+	background:url(../images/tradesArrows.jpg) no-repeat 0 3px;
+	font-size:14px;
+	color:#B6650C;
+	margin: 13px 0 0 16px;
+	padding:0 0 5px 20px;
+}
+.aboutTrades ul
+{
+	padding:0px;
+	width:100%;
+}
+.leftMargin100 {
+    margin-left: 100px;
+}
+.aboutTrades ul li
+{
+	color:#666;
+	padding-bottom:10px;
+	list-style-position:outside;
+	padding-left:10px;
+	list-style-type:square;
+	font-size:12px;
+	margin-left:60px;
+}
+.aboutTrades ul li .divListItem
+{
+	list-style-type:lower-alpha;
+}
+/* contentRight About Trades Ends here */
+
+/* contentRight About Apprenticeship Starts Here */
+.aboutApprentice
+{
+	border:2px solid #294876;
+    height:295px;
+    margin:0px auto;
+    padding:0;
+    width:598px;
+	margin-top:12px;
+	overflow-x:hidden;
+    overflow-y:scroll;
+}
+.aboutApprentice p
+{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	line-height:20px;
+	text-align:justify;
+	margin:0 10px 8px 35px;
+
+}
+.divATS
+{
+	margin:0px;
+	padding:0px;
+}
+.divATS table tr td
+{
+	padding:3px 22px;
+	font-size:12px;
+}
+
+.divApTable
+{
+	border:2px solid #666;
+	margin: 10px 0 0 15px;
+}
+/* contentRight About Apprenticeship Ends Here */
+
+/* contentRight HITECH TRAINING SCHEME Starts Here */
+
+.divHitech
+{
+	/*border: 2px solid #294876;*/
+  	height:auto;
+	margin:0px auto;
+    overflow: auto;
+    padding: 0;
+    width:598px;
+	line-height:1.5em;
+	margin-top:12px;
+	text-align:justify;
+}
+.divHitech p
+{
+	margin:5px 0;
+}
+
+/* contentRight HITECH TRAINING SCHEME Ends Here */
+
+
+/* footerArea Starts here */
+
+#footer
+{
+	margin-left:50px;
+	background:url(../images/footerBg.jpg);
+	padding:0px;
+	width:900px;
+	height:43px;
+	float:left;
+	color: #0052A4;
+}
+#copyRight
+{
+	padding:0px;
+	float:left;
+	color: #0052A4;
+	margin: 15px 0 0 15px;
+}
+.powered
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	margin: 15px 0 0 145px;
+}
+.powered span a
+{
+	text-decoration:none;
+	color:#06F;
+}
+.powered span a:hover
+{
+	text-decoration:underline;
+}
+#footerNav
+{
+	margin: 15px 15px 0 0;
+	padding:0px;
+	float:right;
+}
+#footerNav a
+{
+	text-decoration:none;
+	color: #0052A4;
+}
+#footerNav a:hover
+{
+	text-decoration:underline;
+	color:#333;
+}
+/* footerArea Ends here */
+/* staffInfo styles */
+.faculty
+{
+  	height: 326px;
+	margin:0px auto;
+    overflow: auto;
+    padding: 0;
+    width:635px;
+	margin:0px;
+}
+
+.staffInfo
+{
+	margin:18px 0 10px 18px;
+	padding:0px;
+	width:282px;
+	height:168px;
+	border:1px solid #CCC;
+	-moz-border-radius:5px;
+	float:left;
+}
+.faculty table tr td
+{
+	padding:1px;
+	text-align:left;
+}
+.faculty img
+{
+	padding:10px 8px 0 10px;
+	width:100px;
+	height:133px;
+	margin:0px;
+}
+.staffInfo .stfName
+{
+	color:#06F;
+	font-weight:bold;
+	font-size:14px;
+}
+
+/* Qlinks styles */
+
+.qLinks
+{
+	margin:20px 0 0 22px;
+	padding:0px;
+	width:180px;
+	height:149px;
+	display:block;
+	float:left;
+	text-align:center;
+	font-size:12px;
+}
+.qLinks a
+{
+	padding-top:5px;
+}
+#gallery
+{
+	margin:0px auto;
+	padding:0px;
+	width:198px;
+	height:144px;
+	overflow:hidden;
+	position:relative;
+}
+#gallery img
+{
+	margin:22px auto;
+	padding:0px;
+	position:relative;
+}
+.slider h3
+{
+	text-align:center;
+}
